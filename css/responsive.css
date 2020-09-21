@@ -1,0 +1,218 @@
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .banner-form .form-body{
+    margin-left: 0;
+  }
+  .banner-form{
+    height: 70vh;
+  }
+  .banner-text{
+    height: 70vh;
+  }
+  .banner{
+    height: 70vh;
+  }
+  .social-section .col-md-7{
+    text-align: center;
+  }
+  .feature-2 .row{
+    flex-direction: column;
+  }
+  .feature-2 .row .col-md-6{
+    max-width: 100%;
+    text-align: center;
+  }
+  .feature-2 .feature-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .feature-2 .line{
+    margin: 30px auto;
+  }
+  .feature-2 .row .col-md-2{
+    max-width: 100%;
+    text-align: center;
+  }
+  .feature-2 .row .col-md-10{
+    max-width: 100%;
+    margin-top: 32px;
+  }
+  .feature-3 .row{
+    flex-direction: column-reverse;
+  }
+  .feature-3 .row .col-md-6{
+    max-width: 100%;
+    text-align: center;
+  }
+  .feature-3 .row .col-md-6 .line{
+    margin: 30px auto;
+  }
+  .feature-1{
+    padding: 60px 0;
+  }
+  .feature-2{
+    padding: 60px 0;
+  }
+  .feature-3{
+    padding: 60px 0;
+  }
+  .about-us{
+    padding: 60px 0;
+  }
+  .pricing{
+    padding: 60px 0;
+  }
+  .price .col-md-4{
+    padding: 0 5px;
+  }
+  .comments{
+    padding: 60px 0;
+  }
+  .user-comment .col-md-4{
+    padding: 0 5px;
+  }
+  .user .col-md-8 h5{
+    margin: 0;
+  }
+  .user .col-md-8{
+    padding-top: 10px;
+  }
+  .user-comment {
+    margin-top: 30px;
+  }
+  .comments .title{
+    font-size: 38px;
+  }
+  .price {
+    margin-top: 40px;
+  }
+  .custom-section{
+    padding: 60px 0;
+  }
+  .contact{
+    padding: 60px 0;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .banner{
+    height: auto;
+  }
+  .banner-form .form-body{
+    margin-left: 0;
+  }
+  .social-section .col-md-5{
+    text-align: center;
+  }
+  .social-section .col-md-7{
+    text-align: center;
+  }
+  .social-section ul li{
+    margin: 0;
+    margin: 0 10px;
+  }
+  .feature-1{
+    padding: 40px 0;
+  }
+  .feature-2{
+    padding: 40px 0;
+    text-align: center;
+  }
+  .feature-3{
+    padding: 40px 0;
+    text-align: center;
+  }
+  .about-us{
+    padding: 40px 0;
+    text-align: center;
+  }
+  .pricing{
+    padding: 40px 0;
+    text-align: center;
+  }
+  .comments{
+    padding: 40px 0;
+    text-align: center;
+  }
+  .custom-section{
+    padding: 40px 0;
+    text-align: center;
+  }
+  .contact{
+    padding: 40px 0;
+    text-align: center;
+
+  }
+  .feature-1 .col-md-2{
+    max-width: 100%;
+    justify-content: center;
+  }
+  .feature-1 ul li{
+    display: inline-block;
+  }
+  .tab-1{
+    border-radius: 5px;
+  }
+  .tab-2{
+    border-radius: 5px;
+  }
+  .tab-3{
+    border-radius: 5px;
+  }
+  .feature-1 .col-md-6 {
+    padding: 22px 24px;
+    text-align: center;
+  }
+  .feature-2 .line{
+    margin: 30px auto;
+  }
+  .feature-2 .col-md-2{
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .feature-3 .line{
+    margin: 30px auto;
+  }
+  .about-us .title{
+    font-size: 28px;
+  }
+  .pricing .title{
+    font-size: 28px;
+  }
+  .price {
+    margin-top: 20px;
+  }
+  .price .col-md-4{
+    margin-bottom: 40px;
+  }
+  .comments .title{
+    font-size: 28px;
+  }
+  .icon-box{
+    left: 45%;
+  }
+  .user .col-md-8{
+    text-align: center;
+  }
+  .user .col-md-8 h5{
+    margin: 0;
+  }
+  .custom-section .title{
+    font-size: 28px;
+  }
+  .contact .title{
+    font-size: 28px;
+  }
+}
